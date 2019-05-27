@@ -1,0 +1,10 @@
+body {
+    background: black;
+    padding-left: 30%;
+    padding-top: 5%;
+    font-size: 140%;
+}
+
+h1,h3,li,a {
+    color: goldenrod;
+}
