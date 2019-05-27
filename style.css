@@ -3,8 +3,9 @@ body {
     padding-left: 30%;
     padding-top: 5%;
     font-size: 140%;
+    color: goldenrod;
 }
 
-h1,h3,li,a {
-    color: goldenrod;
+h1 {
+    text-decoration-line: underline;
 }
