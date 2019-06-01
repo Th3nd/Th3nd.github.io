@@ -1,10 +1,78 @@
-body {
-    background: black;
-    padding-left: 30%;
-    padding-top: 5%;
-    font-size: 140%;
-    color: goldenrod;
+body, html {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: white;
+    margin: 0%;
 }
+
+.bg-image {
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-text {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    border-radius: 1%;
+    border: 1px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 20px;
+    text-align: left;
+    padding-left: 10%;
+    display:inline-block;
+}
+
+.bg-header {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    position: absolute;
+    border-radius: 1%;
+    border: 3px solid white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 30%;
+    padding: 40px;
+    text-align: center;
+    padding-left: 0%;
+    padding-right: 0%;
+    display:inline-block;
+    font-size: 140%;
+}
+
+li {
+    font-size: 24px;
+    list-style-type: none;
+}
+
+ul {
+    padding: 0%;
+}
+
+.info {
+    font-size: 22px;
+    font-style: italic
+}
+
 a {
-    color: goldenrod;
+    color: white;
+    text-decoration-line: none;
 }
