@@ -1,9 +1,5 @@
 <!--??--->
-<!DOCTYPE html>
-<html lang="en">
-<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
     <link rel="icon" href="icon.jpg" />
     <title>arsenic</title>
     <style>
@@ -14,12 +10,12 @@
 
         a {
             color: rgb(128, 128, 128);
-            text-shadow: 20px
         }
 
         #watermark {
             color: rgb(225, 165, 65);
             font-style: oblique;
+            text-shadow: 3px 3px 0px rgba(128, 128, 128, 220);
             animation: test 2s infinite linear;
         }
 
@@ -40,12 +36,11 @@
 
 
         .typing-demo {
-            width: 68ch;
-            animation: typing 6s steps(68);
+            width: 44ch;
+            animation: typing 6s steps(44);
             white-space: nowrap;
             overflow: hidden;
             font-family: monospace;
-            
         }
 
         @keyframes typing {
@@ -55,9 +50,6 @@
         }
 
         @keyframes test {
-            from {
-                text-shadow: 0px 0px 0px rgba(128, 128, 128, 200);
-            }
             to {
                 text-shadow: 6px 6px 0px rgba(128, 128, 128, 200);
             }
@@ -66,9 +58,6 @@
         @keyframes lmfao {
             from {
                 text-shadow: 0px 0px 0px rgb(128, 128, 128);
-            }
-            to {
-                text-shadow: 0px 0px 4px rgb(128, 128, 128);
             }
         }
     </style>
